@@ -1,0 +1,59 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+ labels:
+    app.kubernetes.io/instance: default-couchdbcluster
+    app.kubernetes.io/managed-by: couchdb.databases.cloud.ibm.com
+    app.kubernetes.io/name: couchdb
+    formation_id: default-couchdbcluster
+    formation_type: couchdb
+    role: m
+ name: data-c-default-couchdbcluster-m-0
+ namespace: <REPLACE_WITH_NAMESPACE>
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: <REPLACE_WITH_STORAGE_SIZE> 
+  storageClassName: <REPLACE_WITH_STORAGE_CLASS_NAME> 
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+ labels:
+    app.kubernetes.io/instance: default-couchdbcluster
+    app.kubernetes.io/managed-by: couchdb.databases.cloud.ibm.com
+    app.kubernetes.io/name: couchdb
+    formation_id: default-couchdbcluster
+    formation_type: couchdb
+    role: m
+ name: data-c-default-couchdbcluster-m-1
+ namespace: <REPLACE_WITH_NAMESPACE>
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: <REPLACE_WITH_STORAGE_SIZE> 
+  storageClassName: <REPLACE_WITH_STORAGE_CLASS_NAME> 
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+ labels:
+    app.kubernetes.io/instance: default-couchdbcluster
+    app.kubernetes.io/managed-by: couchdb.databases.cloud.ibm.com
+    app.kubernetes.io/name: couchdb
+    formation_id: default-couchdbcluster
+    formation_type: couchdb
+    role: m
+ name: data-c-default-couchdbcluster-m-2
+ namespace: <REPLACE_WITH_NAMESPACE>
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: <REPLACE_WITH_STORAGE_SIZE> 
+  storageClassName: <REPLACE_WITH_STORAGE_CLASS_NAME> 
