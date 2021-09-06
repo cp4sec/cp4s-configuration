@@ -5,7 +5,6 @@ metadata:
     app.kubernetes.io/instance: backup-restore
     app.kubernetes.io/managed-by: cp4s-backuprestore-operator
     app.kubernetes.io/name: backup-restore
-    chart: backup-restore
  name: cp4s-backup-pv-claim 
  namespace: <REPLACE_WITH_NAMESPACE>
 spec:
