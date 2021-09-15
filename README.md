@@ -8,4 +8,4 @@ Full documenation for the Cloud Pak is available [here](https://www.ibm.com/docs
 
 The YAML files provided in this folder should be used when expanding the PVC size as documented in IBM Cloud Pak for Security administration tasks. These procedures are only applicable where the storage class used does not support `volumeExpansion` 
 
-Licensed under [Apache 2.0 License](https://github.com/cp4sec/cp4s-configuration/blob/main/README.md)
+Licensed under [Apache 2.0 License](https://github.com/cp4sec/cp4s-configuration/blob/main/LICENSE)
