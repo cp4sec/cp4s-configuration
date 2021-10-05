@@ -15,7 +15,7 @@ spec:
         claimName: temp-pvc-couchdb-2
   containers:
     - name: debug
-      image: cp.icr.io/cp4s/busybox:1.8.0.0-amd64
+      image: cp.icr.io/cp/cp4s/busybox:1.8.0.0-amd64
       command: ['sleep', '3600']
       volumeMounts:
         - name: volume-source
